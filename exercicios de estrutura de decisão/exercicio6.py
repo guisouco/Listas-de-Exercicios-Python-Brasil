@@ -11,3 +11,5 @@ if __name__ == '__main__':
         print(f'O {n2} é maior que {n1} e {n3}')
     elif n3>n1 and n3>n2:
         print(f'O {n3} é maior que {n2} e {n1}')
+    else:
+        print('Os numeros são iguais')
