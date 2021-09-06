@@ -9,13 +9,12 @@ A mensagem "Aprovado com Distinção", se a média for igual a dez.
 nota_1_aluno = float(input('Digite a nota numero 1: '))
 nota_2_aluno = float(input('Digite a nota numero 2: '))
 
-if __name__ == '__main__':
-  print(f'Sua média foi {(nota_1_aluno + nota_2_aluno) / 2}')
-  if nota_1_aluno == 10:
-    print('Aprovado com Distinção')
-  elif nota_1_aluno >= 7:
-    print('Aprovado')
-  else:
-    print('Reprovado')
+print(f'Sua média foi {(nota_1_aluno + nota_2_aluno) / 2}')
+if nota_1_aluno == 10:
+  print('Aprovado com Distinção')
+elif nota_1_aluno >= 7:
+  print('Aprovado')
+else:
+  print('Reprovado')
 
   print('Finalizou o programa')

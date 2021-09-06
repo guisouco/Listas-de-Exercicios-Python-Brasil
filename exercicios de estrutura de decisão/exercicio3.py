@@ -5,10 +5,9 @@ Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
 
 letra = str(input('Digite a letra F ou M para descobrir seu sexo: ')).upper()
 
-if __name__ == '__main__':
-    if letra == 'M':
-        print('M - Sexo Masculino')
-    elif letra == 'F':
-        print('F - Sexo Feminino')
-    else:
-        print('Sexo invalido')
+if letra == 'M':
+    print('M - Sexo Masculino')
+elif letra == 'F':
+    print('F - Sexo Feminino')
+else:
+    print('Sexo invalido')

@@ -2,8 +2,7 @@
 
 v = float(input('Digite um valor: '))
 
-if __name__ == '__main__':
-    if v>0:
-        print('O valor é positivo.')
-    elif v<0:
-        print('O valor é negativo.')
+if v>0:
+    print('O valor é positivo.')
+elif v<0:
+    print('O valor é negativo.')
